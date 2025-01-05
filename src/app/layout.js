@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=285369944f68aeeb0fb8767b177cef7b"></script>
         {children}
       </body>
     </html>
